@@ -1,88 +1,80 @@
 {
-  "minecraft:recipes/transportation/mangrove_boat": {
+  "repurposed_structures:root": {
     "criteria": {
-      "in_water": "2024-02-29 03:26:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_logs": "2024-02-29 03:25:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2024-02-29 03:25:03 +0000"
+      "always": "2024-02-29 23:29:33 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-02-29 03:24:18 +0000"
+      "unlock_right_away": "2024-02-29 23:29:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
+  "mekanism:root": {
     "criteria": {
-      "in_water": "2024-02-29 03:26:20 +0000"
+      "automatic": "2024-02-29 23:29:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_boat": {
+  "iceandfire:iceandfire/root": {
     "criteria": {
-      "in_water": "2024-02-29 03:26:20 +0000"
+      "tick": "2024-02-29 23:29:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_wood": {
+  "ironchest:recipes/decorations/chests/vanilla_dirt_chest": {
     "criteria": {
-      "has_log": "2024-02-29 03:25:03 +0000"
+      "has_iron_ingot": "2024-02-29 23:31:14 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-02-29 23:29:33 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2024-02-29 23:29:33 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2024-02-29 23:29:34 +0000"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-02-29 23:29:33 +0000"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2024-02-29 23:29:33 +0000"
+    },
+    "done": true
+  },
+  "ironfurnaces:coal": {
+    "criteria": {
+      "rainbowcoal": "2024-02-29 23:29:33 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:birch_forest": "2024-02-29 03:26:24 +0000",
-      "minecraft:beach": "2024-02-29 03:24:19 +0000",
-      "minecraft:river": "2024-02-29 03:26:21 +0000",
-      "minecraft:old_growth_birch_forest": "2024-02-29 03:24:31 +0000"
+      "minecraft:river": "2024-02-29 23:36:19 +0000",
+      "minecraft:plains": "2024-02-29 23:29:34 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/transportation/bamboo_raft": {
+  "apotheosis:give_book": {
     "criteria": {
-      "in_water": "2024-02-29 03:26:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2024-02-29 03:26:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2024-02-29 03:26:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2024-02-29 03:26:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2024-02-29 03:26:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2024-02-29 03:26:20 +0000"
+      "tick": "2024-02-29 23:29:33 +0000"
     },
     "done": true
   },
