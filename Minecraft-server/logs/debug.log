@@ -1,415 +1,415 @@
-[02:51:07] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[02:51:07] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler]: Found naming services : [srgtomcp]
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,mohist_implementer,capability_token_subclass,accesstransformer,runtimedistcleaner]
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Discovering transformation services
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path GAMEDIR is /workspaces/codespaces-jupyter/Minecraft-server
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path MODSDIR is /workspaces/codespaces-jupyter/Minecraft-server/mods
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path CONFIGDIR is /workspaces/codespaces-jupyter/Minecraft-server/config
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path FMLCONFIG is /workspaces/codespaces-jupyter/Minecraft-server/config/fml.toml
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Found additional transformation services from discovery services: 
-[02:51:07] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Found transformer services : [mixin,fml]
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Transformation services loading
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Loading service mixin
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Loaded service mixin
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Loading service fml
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion]: Found FMLLauncher version 1.0
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML 1.0 loading
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML found EventBus version : 6.0.5+0+master.c510e2cc
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Found Runtime Dist Cleaner
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
-[02:51:07] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Found ForgeSPI package specification 5
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Loaded service fml
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Configuring option handling for services
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Transformation services initializing
-[02:51:07] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initializing transformation service mixin
-[02:51:07] [main/DEBUG] [mixin]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@768fc0f2
-[02:51:08] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23111!/ Service=ModLauncher Env=SERVER
-[02:51:08] [main/DEBUG] [mixin]: Initialising Mixin Platform Manager
-[02:51:08] [main/DEBUG] [mixin]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[02:51:08] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[02:51:08] [main/DEBUG] [mixin]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[02:51:08] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[02:51:08] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initialized transformation service mixin
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initializing transformation service fml
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Setting up basic FML game directories
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path GAMEDIR is /workspaces/codespaces-jupyter/Minecraft-server
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path MODSDIR is /workspaces/codespaces-jupyter/Minecraft-server/mods
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path CONFIGDIR is /workspaces/codespaces-jupyter/Minecraft-server/config
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path FMLCONFIG is /workspaces/codespaces-jupyter/Minecraft-server/config/fml.toml
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Loading configuration
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Preparing ModFile
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Preparing launch handler
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Using forgeserver as launch service
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Received command line version data  : VersionInfo[forgeVersion=47.2.20, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initialized transformation service fml
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler]: Current naming domain is 'srg'
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler]: Identified name mapping providers {}
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Transformation services begin scanning
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Beginning scan trigger - transformation service mixin
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: End scan trigger - transformation service mixin
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Beginning scan trigger - transformation service fml
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Initiating mod scan
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler]: Found mod coordinates from lists: []
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer]: Found Dependency Locators : (JarInJar:null)
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo]: Found valid mod file forge-1.20.1-47.2.20-universal.jar with {forge,mohist} mods - versions {47.2.20,1.20.1}
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from server-1.20.1-20230612.114412-srg.jar, it does not contain dependency information.
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.20.1-47.2.20-universal.jar, it does not contain dependency information.
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.20.1-47.2.20.jar, it does not contain dependency information.
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.20.1-47.2.20.jar, it does not contain dependency information.
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.20.1-47.2.20.jar, it does not contain dependency information.
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.20.1-47.2.20.jar, it does not contain dependency information.
-[02:51:08] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: No dependencies to load found. Skipping!
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Loading mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo]: Found valid mod file forge-1.20.1-47.2.20-universal.jar with {forge,mohist} mods - versions {47.2.20,1.20.1}
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Loading mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Found coremod coremods/field_to_method.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Found coremod coremods/field_to_instanceof.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Found coremod coremods/add_bouncer_method.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Found coremod coremods/method_redirector.js
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: End scan trigger - transformation service fml
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider]: Found 3 language providers
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider]: Found language provider minecraft, version 1.0
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider]: Found language provider lowcodefml, version 47
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider]: Found language provider javafml, version 47
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Configured system mods: [minecraft, forge]
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Found system mod: minecraft
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Found system mod: forge
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Found 0 mod requirements (0 mandatory, 0 optional)
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Transformation services loading transformers
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initializing transformers for transformation service mixin
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initialized transformers for transformation service mixin
-[02:51:08] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initializing transformers for transformation service fml
-[02:51:08] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Loading coremod transformers
-[02:51:08] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: Loading CoreMod from coremods/field_to_method.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: CoreMod loaded successfully
-[02:51:08] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: Loading CoreMod from coremods/field_to_instanceof.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: CoreMod loaded successfully
-[02:51:08] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: Loading CoreMod from coremods/add_bouncer_method.js
-[02:51:08] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: CoreMod loaded successfully
-[02:51:08] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: Loading CoreMod from coremods/method_redirector.js
-[02:51:09] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: CoreMod loaded successfully
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@604d23fa to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@35d60381 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@68ab6ab0 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@61ffd148 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@58324c9f to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5d7d8613 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6eb089e6 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@715a70e9 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3bc69ce9 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
-[02:51:09] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initialized transformers for transformation service fml
-[02:51:09] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[02:51:09] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[02:51:09] [main/DEBUG] [mixin]: Adding mixin platform agents for container SecureJarResource(minecraft)
-[02:51:09] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
-[02:51:09] [main/DEBUG] [mixin]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
-[02:51:09] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
-[02:51:09] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
-[02:51:09] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[02:51:09] [main/DEBUG] [mixin]: Adding mixin platform agents for container SecureJarResource(forge)
-[02:51:09] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
-[02:51:09] [main/DEBUG] [mixin]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
-[02:51:09] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
-[02:51:09] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
-[02:51:09] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[02:51:09] [main/DEBUG] [mixin]: Registering mixin config: mohist.mixins.json
-[02:51:09] [main/DEBUG] [mixin]: Compatibility level JAVA_8 specified by mohist.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
-[02:51:09] [main/DEBUG] [mixin]: inject() running with 3 agents
-[02:51:09] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[02:51:09] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[02:51:09] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[02:51:09] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
-[02:51:09] [main/DEBUG] [mixin]: Error cleaning class output directory: .mixin.out
-[02:51:09] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[DEFAULT]
-[02:51:09] [main/DEBUG] [mixin]: Selecting config mohist.mixins.json
-[02:51:09] [main/DEBUG] [mixin]: Preparing mohist.mixins.json (1)
-[02:51:09] [main/DEBUG] [mixin]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
-[02:51:09] [main/DEBUG] [mixin]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
-[02:51:09] [main/DEBUG] [mixin]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
-[02:51:09] [main/DEBUG] [mixin]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
-[02:51:09] [main/DEBUG] [mixin]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
-[02:51:09] [main/DEBUG] [mixin]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
-[02:51:09] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory]: Using SLF4J as the default logging framework
-[02:51:09] [main/DEBUG] [io.netty.util.ResourceLeakDetector]: -Dio.netty.leakDetection.level: simple
-[02:51:09] [main/DEBUG] [io.netty.util.ResourceLeakDetector]: -Dio.netty.leakDetection.targetRecords: 4
-[02:51:09] [main/DEBUG] [mixin]: Mixing bukkit.MixinCraftServer from mohist.mixins.json into org.bukkit.craftbukkit.v1_20_R1.CraftServer
-[02:51:09] [main/DEBUG] [mixin]: mohist.mixins.json:bukkit.MixinCraftServer: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
-[02:51:10] [main/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 0.0 from cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b
-[02:51:10] [main/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion]: Found Forge version 47.2.20
-[02:51:10] [main/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion]: Found Forge spec 0.0
-[02:51:10] [main/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion]: Found Forge group net.minecraftforge
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/self/auxv
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/self/auxv
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/stat
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/cpuinfo
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/self/auxv
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/meminfo
-[02:51:10] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/meminfo
-[02:51:10] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/EntityType
-[02:51:10] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/block/LiquidBlock
-[02:51:11] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/block/StairBlock
-[02:51:11] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/block/FlowerPotBlock
-[02:51:11] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/item/ItemStack
-[02:51:12] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
-[02:51:12] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/item/BucketItem
-[02:51:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/Spider
-[02:51:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/Zombie
-[02:51:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/ZombieVillager
-[02:51:14] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
-[02:51:14] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
-[02:51:14] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/Strider
-[02:51:14] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/npc/Villager
-[02:51:14] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/effect/MobEffectInstance
-[02:51:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/Structure
-[02:51:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
-[02:51:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
-[02:51:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
-[02:51:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
-[02:51:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/biome/Biome
-[02:51:15] [main/DEBUG] [net.minecraftforge.common.ForgeI18n]: Loading I18N data entries: 6430
-[02:51:15] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager]: Using 4 threads for parallel mod-loading
-[02:51:15] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b - got cpw.mods.cl.ModuleClassLoader@65f2f9b0
-[02:51:15] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer]: Creating FMLModContainer instance for com.mohistmc.MohistMC
-[02:51:15] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b - got cpw.mods.cl.ModuleClassLoader@65f2f9b0
-[02:51:15] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion]: Found MC version information 1.20.1
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion]: Found MCP version information 20230612.114412
-[02:51:15] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
-[02:51:15] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.20 Initialized
-[02:51:15] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.20 Initialized
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: -Dio.netty.noUnsafe: false
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: Java version: 21
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: sun.misc.Unsafe.theUnsafe: available
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: sun.misc.Unsafe.copyMemory: available
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: sun.misc.Unsafe.storeFence: available
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: java.nio.Buffer.address: available
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: direct buffer constructor: unavailable
+[03:16:42] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[03:16:42] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler]: Found naming services : [srgtomcp]
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,mohist_implementer,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Discovering transformation services
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path GAMEDIR is /workspaces/codespaces-jupyter/Minecraft-server
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path MODSDIR is /workspaces/codespaces-jupyter/Minecraft-server/mods
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path CONFIGDIR is /workspaces/codespaces-jupyter/Minecraft-server/config
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path FMLCONFIG is /workspaces/codespaces-jupyter/Minecraft-server/config/fml.toml
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Found additional transformation services from discovery services: 
+[03:16:42] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Found transformer services : [mixin,fml]
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Transformation services loading
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Loading service mixin
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Loaded service mixin
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Loading service fml
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion]: Found FMLLauncher version 1.0
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML 1.0 loading
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML found EventBus version : 6.0.5+0+master.c510e2cc
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Found Runtime Dist Cleaner
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Found ForgeSPI package specification 5
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Loaded service fml
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Configuring option handling for services
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Transformation services initializing
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initializing transformation service mixin
+[03:16:42] [main/DEBUG] [mixin]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@768fc0f2
+[03:16:42] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23111!/ Service=ModLauncher Env=SERVER
+[03:16:42] [main/DEBUG] [mixin]: Initialising Mixin Platform Manager
+[03:16:42] [main/DEBUG] [mixin]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[03:16:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[03:16:42] [main/DEBUG] [mixin]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[03:16:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[03:16:42] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initialized transformation service mixin
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initializing transformation service fml
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Setting up basic FML game directories
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path GAMEDIR is /workspaces/codespaces-jupyter/Minecraft-server
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path MODSDIR is /workspaces/codespaces-jupyter/Minecraft-server/mods
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path CONFIGDIR is /workspaces/codespaces-jupyter/Minecraft-server/config
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths]: Path FMLCONFIG is /workspaces/codespaces-jupyter/Minecraft-server/config/fml.toml
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Loading configuration
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Preparing ModFile
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Preparing launch handler
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Using forgeserver as launch service
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader]: Received command line version data  : VersionInfo[forgeVersion=47.2.20, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initialized transformation service fml
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler]: Current naming domain is 'srg'
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler]: Identified name mapping providers {}
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Transformation services begin scanning
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Beginning scan trigger - transformation service mixin
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: End scan trigger - transformation service mixin
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Beginning scan trigger - transformation service fml
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Initiating mod scan
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler]: Found mod coordinates from lists: []
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer]: Found Dependency Locators : (JarInJar:null)
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo]: Found valid mod file forge-1.20.1-47.2.20-universal.jar with {forge,mohist} mods - versions {47.2.20,1.20.1}
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from server-1.20.1-20230612.114412-srg.jar, it does not contain dependency information.
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.20.1-47.2.20-universal.jar, it does not contain dependency information.
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.20.1-47.2.20.jar, it does not contain dependency information.
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.20.1-47.2.20.jar, it does not contain dependency information.
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.20.1-47.2.20.jar, it does not contain dependency information.
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.20.1-47.2.20.jar, it does not contain dependency information.
+[03:16:42] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: No dependencies to load found. Skipping!
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Loading mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Considering mod file candidate /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo]: Found valid mod file forge-1.20.1-47.2.20-universal.jar with {forge,mohist} mods - versions {47.2.20,1.20.1}
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Loading mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Found coremod coremods/field_to_method.js
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Found coremod coremods/field_to_instanceof.js
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Found coremod coremods/add_bouncer_method.js
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile]: Found coremod coremods/method_redirector.js
+[03:16:42] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: End scan trigger - transformation service fml
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider]: Found 3 language providers
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider]: Found language provider minecraft, version 1.0
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider]: Found language provider lowcodefml, version 47
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider]: Found language provider javafml, version 47
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Configured system mods: [minecraft, forge]
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Found system mod: minecraft
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Found system mod: forge
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Found 0 mod requirements (0 mandatory, 0 optional)
+[03:16:42] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler]: Transformation services loading transformers
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initializing transformers for transformation service mixin
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initialized transformers for transformation service mixin
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initializing transformers for transformation service fml
+[03:16:43] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider]: Loading coremod transformers
+[03:16:43] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: Loading CoreMod from coremods/field_to_method.js
+[03:16:43] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: CoreMod loaded successfully
+[03:16:43] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: Loading CoreMod from coremods/field_to_instanceof.js
+[03:16:43] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: CoreMod loaded successfully
+[03:16:43] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: Loading CoreMod from coremods/add_bouncer_method.js
+[03:16:43] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: CoreMod loaded successfully
+[03:16:43] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: Loading CoreMod from coremods/method_redirector.js
+[03:16:43] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine]: CoreMod loaded successfully
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@604d23fa to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@35d60381 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@68ab6ab0 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@61ffd148 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@58324c9f to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5d7d8613 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6eb089e6 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@715a70e9 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3bc69ce9 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformStore]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@abad89c to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[03:16:43] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator]: Initialized transformers for transformation service fml
+[03:16:44] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[03:16:44] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[03:16:44] [main/DEBUG] [mixin]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[03:16:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[03:16:44] [main/DEBUG] [mixin]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[03:16:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[03:16:44] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[03:16:44] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[03:16:44] [main/DEBUG] [mixin]: Adding mixin platform agents for container SecureJarResource(forge)
+[03:16:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[03:16:44] [main/DEBUG] [mixin]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[03:16:44] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[03:16:44] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[03:16:44] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[03:16:44] [main/DEBUG] [mixin]: Registering mixin config: mohist.mixins.json
+[03:16:44] [main/DEBUG] [mixin]: Compatibility level JAVA_8 specified by mohist.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[03:16:44] [main/DEBUG] [mixin]: inject() running with 3 agents
+[03:16:44] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[03:16:44] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[03:16:44] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[03:16:44] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[03:16:44] [main/DEBUG] [mixin]: Error cleaning class output directory: .mixin.out
+[03:16:44] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[DEFAULT]
+[03:16:44] [main/DEBUG] [mixin]: Selecting config mohist.mixins.json
+[03:16:44] [main/DEBUG] [mixin]: Preparing mohist.mixins.json (1)
+[03:16:44] [main/DEBUG] [mixin]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[03:16:44] [main/DEBUG] [mixin]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[03:16:44] [main/DEBUG] [mixin]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[03:16:44] [main/DEBUG] [mixin]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[03:16:44] [main/DEBUG] [mixin]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[03:16:44] [main/DEBUG] [mixin]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[03:16:44] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory]: Using SLF4J as the default logging framework
+[03:16:44] [main/DEBUG] [io.netty.util.ResourceLeakDetector]: -Dio.netty.leakDetection.level: simple
+[03:16:44] [main/DEBUG] [io.netty.util.ResourceLeakDetector]: -Dio.netty.leakDetection.targetRecords: 4
+[03:16:44] [main/DEBUG] [mixin]: Mixing bukkit.MixinCraftServer from mohist.mixins.json into org.bukkit.craftbukkit.v1_20_R1.CraftServer
+[03:16:44] [main/DEBUG] [mixin]: mohist.mixins.json:bukkit.MixinCraftServer: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[03:16:44] [main/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 0.0 from cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b
+[03:16:44] [main/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion]: Found Forge version 47.2.20
+[03:16:44] [main/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion]: Found Forge spec 0.0
+[03:16:44] [main/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion]: Found Forge group net.minecraftforge
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/self/auxv
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/self/auxv
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/stat
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/cpuinfo
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/self/auxv
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/meminfo
+[03:16:44] [main/DEBUG] [oshi.util.FileUtil]: Reading file /proc/meminfo
+[03:16:45] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/EntityType
+[03:16:45] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/block/LiquidBlock
+[03:16:45] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/block/StairBlock
+[03:16:45] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[03:16:46] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/item/ItemStack
+[03:16:47] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[03:16:47] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/item/BucketItem
+[03:16:48] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/Spider
+[03:16:48] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/Zombie
+[03:16:48] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[03:16:48] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[03:16:48] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[03:16:48] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/monster/Strider
+[03:16:48] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/npc/Villager
+[03:16:48] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/effect/MobEffectInstance
+[03:16:49] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[03:16:49] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[03:16:49] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[03:16:49] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[03:16:49] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[03:16:49] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/biome/Biome
+[03:16:49] [main/DEBUG] [net.minecraftforge.common.ForgeI18n]: Loading I18N data entries: 6430
+[03:16:49] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager]: Using 4 threads for parallel mod-loading
+[03:16:49] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b - got cpw.mods.cl.ModuleClassLoader@65f2f9b0
+[03:16:49] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer]: Creating FMLModContainer instance for com.mohistmc.MohistMC
+[03:16:49] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b - got cpw.mods.cl.ModuleClassLoader@65f2f9b0
+[03:16:49] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[03:16:49] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@1ca3d25b
+[03:16:49] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion]: Found MC version information 1.20.1
+[03:16:49] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion]: Found MCP version information 20230612.114412
+[03:16:49] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[03:16:49] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.20 Initialized
+[03:16:49] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.20 Initialized
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: -Dio.netty.noUnsafe: false
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: Java version: 21
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: sun.misc.Unsafe.theUnsafe: available
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: sun.misc.Unsafe.copyMemory: available
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: sun.misc.Unsafe.storeFence: available
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: java.nio.Buffer.address: available
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: direct buffer constructor: unavailable
 java.lang.NoSuchMethodException: java.nio.DirectByteBuffer.<init>(long,int)
 	at java.lang.Class.getConstructor0(Class.java:3761) ~[?:?]
 	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
@@ -435,8 +435,8 @@ java.lang.NoSuchMethodException: java.nio.DirectByteBuffer.<init>(long,int)
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: java.nio.Bits.unaligned: available, true
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: java.nio.Bits.unaligned: available, true
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
 java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
 	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
 	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:714) ~[?:?]
@@ -463,48 +463,244 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: sun.misc.Unsafe: available
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: maxDirectMemory: 10737418240 bytes (maybe)
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.maxDirectMemory: -1 bytes
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9]: java.nio.ByteBuffer.cleaner(): available
-[02:51:15] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.noPreferDirect: false
-[02:51:15] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod]: Loading Network data for FML net version: FML3
-[02:51:15] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber]: Attempting to inject @EventBusSubscriber classes into the eventbus for mohist
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker]: Config file forge-client.toml for forge tracking
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker]: Config file forge-server.toml for forge tracking
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext]: Attempted to register an empty config for type COMMON on mod forge
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
-[02:51:15] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
-[02:51:15] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
-[02:51:15] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
-[02:51:15] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
-[02:51:15] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
-[02:51:16] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker]: Loading configs type COMMON
-[02:51:17] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:51:17] [main/ERROR] [net.minecraft.server.Main]: Failed to start the minecraft server
-net.minecraft.util.DirectoryLock$LockException: /workspaces/codespaces-jupyter/Minecraft-server/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.util.DirectoryLock$LockException.m_13648_(DirectoryLock.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23192!/:?]
-	at net.minecraft.util.DirectoryLock.m_13640_(DirectoryLock.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23192!/:?]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:440) ~[server-1.20.1-20230612.114412-srg.jar%23192!/:?]
-	at net.minecraft.world.level.storage.LevelStorageSource.m_289864_(LevelStorageSource.java:344) ~[server-1.20.1-20230612.114412-srg.jar%23192!/:?]
-	at net.minecraft.server.Main.main(Main.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23192!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[03:16:49] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: sun.misc.Unsafe: available
+[03:16:49] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[03:16:50] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: maxDirectMemory: 10737418240 bytes (maybe)
+[03:16:50] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[03:16:50] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[03:16:50] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.maxDirectMemory: -1 bytes
+[03:16:50] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[03:16:50] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9]: java.nio.ByteBuffer.cleaner(): available
+[03:16:50] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent]: -Dio.netty.noPreferDirect: false
+[03:16:50] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod]: Loading Network data for FML net version: FML3
+[03:16:50] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[03:16:50] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber]: Attempting to inject @EventBusSubscriber classes into the eventbus for mohist
+[03:16:50] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker]: Config file forge-client.toml for forge tracking
+[03:16:50] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker]: Config file forge-server.toml for forge tracking
+[03:16:50] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext]: Attempted to register an empty config for type COMMON on mod forge
+[03:16:50] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[03:16:50] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[03:16:50] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[03:16:50] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[03:16:50] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[03:16:50] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[03:16:50] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker]: Loading configs type COMMON
+[03:16:51] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:16:52] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks]: Generating PackInfo named mod:forge for mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar
+[03:16:53] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/server/commands/SummonCommand
+[03:16:53] [Worker-Main-2/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/raid/Raid
+[03:16:53] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 7 recipes
+[03:16:54] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1271 advancements
+[03:16:54] [main/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[03:16:54] [main/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[03:16:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[03:16:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[03:16:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[03:16:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[03:16:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[03:16:54] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils]: Detected IPv4 address: "0.0.0.0"
+[03:16:54] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader]: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[03:16:54] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader]: -Dio.netty.native.deleteLibAfterLoading: true
+[03:16:54] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader]: -Dio.netty.native.tryPatchShadedId: true
+[03:16:54] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader]: -Dio.netty.native.detectNativeLibraryDuplicates: true
+[03:16:54] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader]: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_6411057934284194642885.so
+[03:16:54] [Server thread/DEBUG] [io.netty.util.NetUtil]: -Djava.net.preferIPv4Stack: true
+[03:16:54] [Server thread/DEBUG] [io.netty.util.NetUtil]: -Djava.net.preferIPv6Addresses: false
+[03:16:54] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[03:16:54] [Server thread/DEBUG] [io.netty.util.NetUtil]: /proc/sys/net/core/somaxconn: 4096
+[03:16:54] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[03:16:54] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup]: -Dio.netty.eventLoopThreads: 8
+[03:16:54] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[03:16:54] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[03:16:54] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent]: org.jctools-core.MpscChunkedArrayQueue: available
+[03:16:54] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId]: -Dio.netty.processId: 37503 (auto-detected)
+[03:16:54] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId]: -Dio.netty.machineId: 60:45:bd:ff:fe:a8:db:47 (auto-detected)
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.numHeapArenas: 8
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.numDirectArenas: 8
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.pageSize: 8192
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.maxOrder: 9
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.chunkSize: 4194304
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.smallCacheSize: 256
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.normalCacheSize: 64
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.useCacheForAllThreads: false
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil]: -Dio.netty.allocator.type: pooled
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil]: -Dio.netty.threadLocalDirectBufferSize: 0
+[03:16:54] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[03:16:54] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-580 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.20, NeoForge version 47.1.79)
+[03:16:55] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[03:16:55] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[03:16:55] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[03:16:55] [Server thread/INFO] [com.mohistmc.MohistMC]: Hello Plugins!
+[03:16:55] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker]: Loading configs type SERVER
+[03:16:55] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler]: Built TOML config for ./world/serverconfig/forge-server.toml
+[03:16:55] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler]: Loaded TOML config file ./world/serverconfig/forge-server.toml
+[03:16:55] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler]: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+[03:16:55] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig]: Loaded forge config file forge-server.toml
+[03:16:55] [Thread-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler]: Config file forge-server.toml changed, sending notifies
+[03:16:55] [Thread-2/DEBUG] [net.minecraftforge.common.ForgeConfig]: Forge config just got changed on the file system!
+[03:16:55] [Thread-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler]: Config file forge-server.toml changed, sending notifies
+[03:16:55] [Thread-2/DEBUG] [net.minecraftforge.common.ForgeConfig]: Forge config just got changed on the file system!
+[03:16:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[03:16:55] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[03:16:55] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[03:16:55] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[03:16:55] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[03:16:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[03:16:59] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[03:17:01] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:01] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:01] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:01] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:01] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:01] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:01] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:02] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:02] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 60%
+[03:17:02] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4202 ms
+[03:17:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[03:17:04] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:04] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:04] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:04] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 6%
+[03:17:04] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1904 ms
+[03:17:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[03:17:06] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:06] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:06] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:06] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:17:06] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 78%
+[03:17:06] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2079 ms
+[03:17:07] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[03:17:07] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[03:17:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (11.978s)! For help, type "help"
+[03:17:07] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils]: Detected IPv4 address: "0.0.0.0"
+[03:17:07] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n]: Loading I18N data entries: 0
+[03:17:07] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[03:17:07] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[03:17:07] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf]: -Dio.netty.buffer.checkAccessible: true
+[03:17:07] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf]: -Dio.netty.buffer.checkBounds: true
+[03:17:07] [Server thread/DEBUG] [io.netty.util.ResourceLeakDetectorFactory]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2389683e
+[03:17:07] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer]: Transforming net/minecraft/world/level/NaturalSpawner
+[03:20:49] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[03:20:49] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler]: -Dio.netty.recycler.ratio: 8
+[03:20:49] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler]: -Dio.netty.recycler.chunkSize: 32
+[03:20:49] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler]: -Dio.netty.recycler.blocking: false
+[03:22:07] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[03:22:07] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[03:24:15] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Starting new modded impl connection. Found 22 messages to dispatch.
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client connection with modlist [minecraft, forge]
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry]: Accepting channel list from client
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Accepted client connection mod list
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:16] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 12
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:16] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 13
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 14
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 15
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 16
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 19
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 20
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 21
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.LoginWrapper]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[03:24:17] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Received acknowledgement from client
+[03:24:17] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler]: Handshake complete!
+[03:24:18] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@68fb8d2b into net.minecraft.network.Connection@58d11df4
+[03:24:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xlPaiNl joined the game
+[03:24:18] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: xlPaiNl[/127.0.0.1:33356] logged in with entity id 146 at ([world]-166.5, 64.0, 31.5)
+[03:24:18] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom]: -Dio.netty.initialSeedUniquifier: 0x2e512c7f0b110081
+[03:27:07] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[03:27:07] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[03:28:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xlPaiNl issued server command: /bukkit:help
+[03:28:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xlPaiNl issued server command: /help Minecraft
+[03:32:07] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[03:32:07] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[03:34:08] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xlPaiNl lost connection: Disconnected
+[03:34:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xlPaiNl left the game
+[03:34:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[03:34:11] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[03:34:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[03:34:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
