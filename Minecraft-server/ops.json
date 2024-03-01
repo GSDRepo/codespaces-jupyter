@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "uuid": "adb55f72-8448-4b91-bfad-02616a7678bc",
+    "name": "AxelZagas",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "347c070c-3f91-4311-96e3-767d47a66146",
+    "name": "Hershtak",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "34f27616-1481-4037-b267-b7ddda8285b4",
+    "name": "xlPaiNl",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
