@@ -4,14 +4,14 @@ preventDespawnIfNamed = true
 [goblinTrader]
 	#The maximum level the trader can spawn
 	traderMaxSpawnLevel = 50
-	#If true, the goblin will try to hit back a player or mob that hit them
-	canAttackBack = true
 	#The minimum level the trader can spawn
 	traderMinSpawnLevel = -64
-	#The amount of ticks before the trader will despawn
-	traderDespawnDelay = 24000
+	#If true, the goblin will try to hit back a player or mob that hit them
+	canAttackBack = true
 	#The amount of ticks to wait before trying to spawn a trader again if the spawn failed
 	spawnInterval = 12000
+	#The amount of ticks before the trader will despawn
+	traderDespawnDelay = 24000
 	#The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 	restockDelay = 48000
 	#The amount of ticks before the trader will start spawning in a new world
@@ -32,10 +32,10 @@ preventDespawnIfNamed = true
 			manAmount = 5
 
 		[goblinTrader.trades.common]
-			#The chance this trade rarity will be included in the goblin's trades
-			includeChance = 1.0
 			#The minimum amount of trades that a golbin will have.
 			minAmount = 5
+			#The chance this trade rarity will be included in the goblin's trades
+			includeChance = 1.0
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 8
 
@@ -48,10 +48,10 @@ preventDespawnIfNamed = true
 			manAmount = 1
 
 		[goblinTrader.trades.rare]
-			#The minimum amount of trades that a golbin will have.
-			minAmount = 3
 			#The chance this trade rarity will be included in the goblin's trades
 			includeChance = 1.0
+			#The minimum amount of trades that a golbin will have.
+			minAmount = 3
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 4
 
@@ -64,16 +64,16 @@ preventDespawnIfNamed = true
 			manAmount = 2
 
 [veinGoblinTrader]
-	#If true, the goblin will try to hit back a player or mob that hit them
-	canAttackBack = true
-	#The minimum level the trader can spawn
-	traderMinSpawnLevel = 0
 	#The maximum level the trader can spawn
 	traderMaxSpawnLevel = 128
-	#The amount of ticks to wait before trying to spawn a trader again if the spawn failed
-	spawnInterval = 12000
+	#The minimum level the trader can spawn
+	traderMinSpawnLevel = 0
+	#If true, the goblin will try to hit back a player or mob that hit them
+	canAttackBack = true
 	#The amount of ticks before the trader will despawn
 	traderDespawnDelay = 24000
+	#The amount of ticks to wait before trying to spawn a trader again if the spawn failed
+	spawnInterval = 12000
 	#The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 	restockDelay = 48000
 	#The amount of ticks before the trader will start spawning in a new world

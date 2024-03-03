@@ -2,6 +2,8 @@
   "apotheosis:spawner": null,
   "apotheosis:ench": null,
   "apotheosis:adventure": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null,
   "mekanism:data_provider": null,
   "mekanism:entity_data_provider": null,
   "minecraft:fluid_storage": null,
@@ -24,11 +26,11 @@
   "minecraft:progress": null,
   "jade:object_name": null,
   "ae2:server_data": null,
-  "supplementaries:present": null,
-  "supplementaries:safe": null,
   "apotheosis:spawner": null,
   "apotheosis:ench": null,
   "apotheosis:adventure": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null,
   "mekanism:data_provider": null,
   "mekanism:entity_data_provider": null,
   "minecraft:fluid_storage": null,
@@ -50,7 +52,5 @@
   "minecraft:energy_storage": null,
   "minecraft:progress": null,
   "jade:object_name": null,
-  "ae2:server_data": null,
-  "supplementaries:present": null,
-  "supplementaries:safe": null
+  "ae2:server_data": null
 }
